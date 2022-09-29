@@ -1,10 +1,11 @@
 <h1>Seja Bem-Vindo!</h1>
-<p>Wesley Maia</>
+<p> Meu curso é o curso de <%= @curso%> </p>
 
 <p>Data: <%= data_br(Date.today)%> </p>
 
 <p>
-	Nome <%= @nome %>
+	Nome <%= @meu_nome %>
 </p>
+
 
 <%= link_to "Cadastro de Moedas", coins_path %>
