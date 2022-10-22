@@ -4,11 +4,12 @@
 
 <p> Meu curso é o curso de <%= @curso%> </p>
 
-<p>Data: <%= Date.today %> </p>
+<p>Data: <%= I18n.l(Date.today) %> </p>
+
+<p> <%= I18n.t('hello') %> </p>
 
 <p>
 	Nome <%= @meu_nome %>
 </p>
-
 
 <%= render "menu"%>
